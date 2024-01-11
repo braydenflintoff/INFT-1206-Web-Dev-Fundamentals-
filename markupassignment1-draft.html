@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 Name: Brayden Flintoff
 File: markupassignment1.html
@@ -7,10 +8,10 @@ Marking up a letter that needs to be hosted on a university intranet. **
 <!--
     Use the first 4 lines of code as described in the assignment.
 -->
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="author" content="Dr. Eleanor Gaye">
     <!--- viewport set to device width just in case the person 
     reading the letter is on a mobile device-->
         <meta name="viewport" content="width=device-width" />
@@ -64,7 +65,7 @@ Marking up a letter that needs to be hosted on a university intranet. **
         <!-----
         Using the sender column I can put the date on the right side as well
         -->
-        <p class="sender-column"> 20 January 2016</p>
+        <p class="sender-column"><time datetime="2016-01-20">20 January 2016</time></p>
         <address>
         <!--- Bolded names and break text for correct formatting-->    
             <strong>Miss Eileen Dover</strong><br>
@@ -75,7 +76,7 @@ Marking up a letter that needs to be hosted on a university intranet. **
         <!---Header 1 using the provided style -->
         <h1>Re: Eileen Dover University Application</h1>
         <p>Dear Eileen,</p>
-        <p>Thank you for your recent applicaiton to join us at the University of Awesome's science faculty to study as a part of your PhD next year. I will answer your questions one by on, in the following sections.</p>
+        <p>Thank you for your recent applicaiton to join us at the University of Awesome's science faculty to study as a part of your <abbr>PhD</abbr> next year. I will answer your questions one by on, in the following sections.</p>
         <!---Using header 2 for the other subject lines to make them bold and larger than
         regular paragraph text-->
         <h2>Starting Dates</h2>
@@ -96,9 +97,9 @@ Marking up a letter that needs to be hosted on a university intranet. **
         <!---I am using an ordered list here because the order is important and it is 
         also mentioned that order is important on the sample text-->
         <ol>
-            <li>Turning H2O into wine, and the health benefits of Resveratrol (C14H12O3.)</li>
-            <li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 x 10^3 increasing to 3 x 10^4.)</li>
-            <li>HTML and CSS constructs for representing musical scores.</li>
+            <li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)</li>
+            <li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 x 10<sup>3</sup> increasing to 3 x 10<sup>4</sup>.)</li>
+            <li><abbr>HTML</abbr>, and <abbr>CSS</abbr>, constructs for representing musical scores.</li>
         </ol>
         <p>So please can you provide more information on each of these subjects, including how long you'd expect the research to take, required staff and other resources, an danything else you think we'd need to know? Thanks.</p>
         <!---Header 2-->
@@ -111,7 +112,7 @@ Marking up a letter that needs to be hosted on a university intranet. **
             <!---dt is the description term this basically sets up the description list
             so we can later use dd (description definition) to describe the details of each term-->
             <dt>Polynesian Chicken Dance</dt>
-            <dd>A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livesotck to be "fruitful".</dd>
+            <dd>A little known but very influential dance dating back as far as 300<abbr>BC</abbr>, a whole village would dance around in a circle like chickens, to encourage their livesotck to be "fruitful".</dd>
             <dt>Icelandic Brownian Shuffle</dt>
             <dd>Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking. Arctic robot dance</dd>
             <dt>Artic Robot Dance</dt>
@@ -122,7 +123,7 @@ Marking up a letter that needs to be hosted on a university intranet. **
         <p>For more of my research, see my <a href="https://www.websitegoeshere.com"> exotic dance research page.</a></p>
         <p>Yours sincerely,</p>
         <p>Dr Eleanor Gaye</p>
-        <p>University of Awesome motto: "Be awesome to each other." -- The memoirs of Bill S Preston, Esq</p>
+        <p>University of Awesome motto: "Be awesome to each other." -- The memoirs of Bill S Preston, <abbr>Esq</abbr></p>
     </body>
 
 <!---------
@@ -162,7 +163,7 @@ This will be header 1 "h1"
 -->    
     Dear Eileen,
     
-    Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your PhD next year. I will answer your questions one by one, in the following sections.
+    Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your <abbr>PhD</abbr> next year. I will answer your questions one by one, in the following sections.
     
  <!--- Heading 2 will be bolded and sized slightly lagrer than the
 regular text-->   
