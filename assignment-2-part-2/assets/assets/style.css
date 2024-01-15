@@ -73,8 +73,9 @@ h1 {
 
 header img {
   display: block;
-  height: 60px;
-  padding-top: 20.15px;
+  height: 100px;
+  padding-top: 1px;
+  padding-bottom:10px;
 }
 
 nav {
@@ -126,7 +127,7 @@ aside {
 aside a {
   display: block;
   float: left;
-  width: 50%;
+  width: 50%
 }
 
 aside img {
