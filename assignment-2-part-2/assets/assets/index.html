@@ -2,20 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!------making sure that the width of the website
+    fits within the device width (for mobile users)-->
     <meta name ="viewport" content="width-device-width">
     <title>Birdwatching</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+    <!-----linking the provided style sheet from mdn-->
     <link rel="stylesheet" href = "style.css">
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
   </head>
-
+<!----body para start-->
   <body>
+    <!----mdn states that the header must contain a header that
+    spans full width of the site, logo, with a nav bar-->
     <header>
+      <!----main header at the top of the page-->
       <h1>Birdwatching</h1>
+      <!---logo of the dove-->
       <img src="dove.png" alt="a simple dove logo">
+    <!----navigation bar below the header-->
     <nav>
+      <!--unordered list of navigation bar content-->
       <ul>
         <li><span>Home</span></li>
         <li><a href="#">Get started</a></li>
@@ -25,9 +34,14 @@
       </ul>
     </nav>
   </header>
-    
-  <main>
   
+  <main>
+  <!---main is the middle part of the website, this incudes
+  the welcome header, and welcome paragraph. As well as
+the "favourite photos" section.-->
+<!---article represents a contained composition, in this case
+I want the welcome header and paragraph to be contained
+because I want it to be separate from the photos.-->
     <article>
         <h2>Welcome</h2>
 
@@ -46,7 +60,8 @@
 
   
   </main>
-      
+  <!---footer is for the copyright and for the link to the 
+  original dove photo logo.-->    
     <footer>
           <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.</p>
 
