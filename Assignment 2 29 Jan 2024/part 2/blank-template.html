@@ -1,3 +1,9 @@
+<!---Brayden Flintoff
+  File: Planets.html
+  Data: 1 February 2024
+  This is a website showcasing a table of various planets and provides
+  a brief data sheet including Mass, Diameter, Density, etc. 
+-->
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -13,7 +19,13 @@
       <caption>Data about the planets of our solar system (Planetary facts taken from <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>.</caption>
       <!---The first set of tables will be the table headers so using the scope attribute tells us 
     whether a header cell is a header for a column.-->
-      <tr>
+    <colgroup>
+      <col span="2">
+      <col style="border: 2px solid black">
+      <col span="9">
+    </colgroup>
+    <thread>  
+    <tr>
         <td colspan="2"></td>
         <th scope="col">Name</th>
         <th scope="col">Mass (10<sup>24</sup>kg)</th>
@@ -26,6 +38,8 @@
         <th scope="col">Number of moons</th>
         <th scope="col">Notes</th>
       </tr>
+      </thread>
+      <tbody>
       <tr>
         <th rowspan="4" colspan="2" scope="rowgroup">Terrestrial planets</th>
         <th scope="row">Mercury</th>
@@ -139,6 +153,7 @@
           <td>5</td>
           <td>Declassified as a planet in 2006, but this <a href="https://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
       </tr>
+    </tbody>
     </table>
   </body>
 </html>
